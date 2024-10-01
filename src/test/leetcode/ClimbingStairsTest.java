@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class ClimbingStairsTest {
     private final ClimbingStairs climbingStairs = new ClimbingStairs();
+
     @Test
     void climbStairsTest() {
         assertEquals(2, climbingStairs.climbStairs(2));

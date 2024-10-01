@@ -27,6 +27,7 @@ package main.leetcode;
  * <p>
  * 1 <= n <= 45
  * */
+
 public class ClimbingStairs {
     public int climbStairs(int n) {
         if (n <= 2) {
