@@ -9,7 +9,7 @@ public class ValidateSudokuTest {
     private final ValidateSudoku vs = new ValidateSudoku();
 
     @Test
-    void isValidSudokuTestInvalidSudoku() {
+    public void isValidSudokuTestInvalidSudoku() {
         char[][] board = new char[][]{
                 {'.','.','4','.','.','.','6','3','.'},
                 {'.','.','.','.','.','.','.','.','.'},
@@ -25,7 +25,7 @@ public class ValidateSudokuTest {
     }
 
     @Test
-    void isValidSudokuTestValidSudoku() {
+    public void isValidSudokuTestValidSudoku() {
         char[][] board = new char[][]{
                 {'.','.','4','.','.','.','6','3','.'},
                 {'.','.','.','.','.','.','.','.','.'},
