@@ -17,6 +17,9 @@ public class TreeNode {
         return right;
     }
 
+    public TreeNode() {
+    }
+
     public TreeNode(int val) {
         this.val = val;
     }
